@@ -1,6 +1,19 @@
-.main{
-    background-color: aqua;
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+p, h1 { font-family: 'Nanum Gothic', sans-serif; }
+.section{ 
+    overflow:hidden;
+    text-align:center;
 }
-.score{
-    background-color: antiquewhite;
+.text{
+    width: 960px; margin: 0 auto;
+    text-align: center;
 }
+.text img{
+}
+.text p{
+    margin-top: 50px;
+    color: white;
+    font-size: 3em;
+}
+.slide{background-color: beige;}
+.slide p{ font-size: 10em;}

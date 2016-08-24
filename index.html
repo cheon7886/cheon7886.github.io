@@ -9,15 +9,19 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script type="text/javascript" src="jquery.slimscroll.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#fullpage').fullpage({
                     'verticalCentered': false,
 				    'css3': true,
-                    'sectionsColor': ['#87D37C', '#fff'],
+                    'anchors': ['Minseok_Jeon', 'Mock_Score'],
+                    'sectionsColor': ['#19B5FE', '#fff'],
                     'navigation': true,
 				    'navigationPosition': 'right',
 				    'navigationTooltips': ['Minseok Jeon', 'Mock Score'],
+                    'scrollBar': true
                 });
             });
         </script>
@@ -25,8 +29,25 @@
     
     <body>
         <div id="fullpage">
-            <div class="section" id="main"></div>
-            <div class="section" id="score"></div>
+            <div class="section" id="main">
+                <div class="text">
+                    <p>Minseok Jeon</p>
+                    <img src="profile.png" id="logo"/ style="width:200px;height:auto;">
+                </div>
+            </div>
+            <div class="section" id="score">
+	           <div class="slide" id="slide1">
+			     <p>Freshman</p>
+		       </div>
+                
+               <div class="slide" id="slide2">
+			     <p>Sophomore</p>
+		       </div>
+                
+               <div class="slide" id="slide3">
+			     <p>Senior</p>
+		       </div>
+            </div>
         </div>
     </body>
 </html>
