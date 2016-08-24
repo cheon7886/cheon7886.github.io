@@ -8,9 +8,19 @@
         <link rel="stylesheet" href="style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="../jquery.fullPage.js"></script>
-	    <script type="text/javascript" src="examples.js"></script>
-        
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    'verticalCentered': false,
+				    'css3': true,
+                    'sectionsColor': ['#87D37C', '#fff'],
+                    'navigation': true,
+				    'navigationPosition': 'right',
+				    'navigationTooltips': ['Minseok Jeon', 'Mock Score'],
+                });
+            });
+        </script>
     </head>
     
     <body>
