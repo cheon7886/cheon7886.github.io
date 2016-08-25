@@ -17,3 +17,74 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
 }
 .slide{background-color: beige;}
 .slide p{ font-size: 10em;}
+
+.flex-wrap {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.button {
+  position: static;
+  width: 200px;
+  height: 200px;
+  margin-right: 0px;
+  float: none;
+  background-color: blue;
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.button1 {
+  width: 200px;
+  height: 200px;
+  background-color: #A70C00;
+}
+
+.button2 {
+  width: 200px;
+  height: 200px;
+  background-color: #BA1C58;
+}
+
+.button3 {
+  width: 200px;
+  height: 200px;
+  background-color: #AA0C48;
+}
+
+.button4 {
+  width: 200px;
+  height: 200px;
+  background-color: #9A0038;
+}
+
+.button5 {
+  width: 200px;
+  height: 200px;
+  background-color: #8A0028;
+}
