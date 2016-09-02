@@ -36,6 +36,18 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
   -ms-flex-pack: center;
   justify-content: center;
 }
+.flex-wrap h1{
+    color: white;
+    font-size: 1.2em;
+}
+.flex-wrap p{
+    color: white;
+    font-size: 0.7em;
+}
+
+.flex-wrap img{
+    padding-top: 5px;
+}
 
 .button {
   position: static;
