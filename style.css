@@ -17,6 +17,7 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
     color: white;
     font-size: 4.2em;
     margin: 0 0 0 0;
+    font-weight: 900;
 }
 .text p{
     color: white;
@@ -39,10 +40,12 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
 .flex-wrap h1{
     color: white;
     font-size: 1.2em;
+    font-weight: 900;
 }
 .flex-wrap p{
     color: white;
     font-size: 0.7em;
+    font-weight: 700;
 }
 
 .flex-wrap img{
@@ -81,56 +84,39 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
 .button1 {
   width: 145.5562px;
   height: 200px;
-  background-color: #A70C00;
+  /*background-color: #A70C00;*/
+  background-color: #75D1C5;
 }
 
 
 .button2 {
   width: 145.5562px;
   height: 200px;
-  background-color: #BA1C58;
+  /*background-color: #BA1C58;*/
+  background-color: #357E8F;
 }
 
-.button2 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .button3 {
   width: 145.5562px;
   height: 200px;
-  background-color: #AA0C48;
+  /*background-color: #AA0C48;*/
+  background-color: #142940;
 }
 
-.button3 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .button4 {
   width: 145.5562px;
   height: 200px;
-  background-color: #9A0038;
-}
-
-.button4 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  /*background-color: #9A0038;*/
+  background-color: #D91E18;
 }
 
 .button5 {
   width: 145.5562px;
   height: 200px;
-  background-color: #8A0028;
-}
-
-.button5 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  /*background-color: #8A0028;*/
+  background-color: #F64747;
 }
 
 .upper{
@@ -200,4 +186,9 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
   width: 100px;
   height: 100px;
   
+}
+
+.lower {
+    width: 1000px;
+    margin: 0 auto;
 }
