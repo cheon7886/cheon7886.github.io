@@ -194,3 +194,10 @@ p, h1 { font-family: 'Nanum Gothic', sans-serif; }
     width: 1000px;
     margin: 0 auto;
 }
+
+.fp-controlArrow.fp-prev {
+    background: url(image/left-arrow.svg) no-repeat;
+}
+.fp-controlArrow.fp-next {
+    background: url(image/right-arrow.svg) no-repeat;
+}
