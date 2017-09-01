@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body, div, 
+h1, h2, h3, h4, h5, h6, p, 
+a, img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+
+body p{font-family: 'Noto Sans KR', sans-serif;}
+#wrap {display: block; width: 100%; height: auto; text-align: center;}
+
+#text_1 {font-size: 40px; font-weight: 100; margin-top: 40px; margin-bottom: 40px;}
+#github, #zip {display: inline-block; width: 200px; z-index: 40; font-weight: 100; text-decoration: none; padding-top: 10px; padding-bottom: 10px; border-radius: 4px; text-align: center; margin-bottom: 30px;}
+#github{border: 1px solid black; margin-right: 30px;}
+#zip {border: 1px solid #19B5FE; margin-left: 30px;}
+#github, #zip > p {  font-size: 20px;}
+#github > p {color: black;}
+#zip > p {color: #19B5FE;}
+img {width: 100%; height: auto;}
+
+
+	#text_area{display: block; position: relative; margin: 0 auto; width:202px;}
+	#github, #zip {display: block; margin-left: 0; margin-right: 0;}
+	#github {margin-bottom: 0;}
+	#zip {border: none;}
+	#zip > p {font-size: 12px;}

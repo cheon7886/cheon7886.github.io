@@ -233,21 +233,37 @@ html.fp-enabled,
     height: auto !important;
 }
 </style>
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<script type="application/javascript">
 			$(document).ready(function() {
-				$('#fullpage').fullpage();
+				$('#fullpage').fullpage({
+					anchors:['sec_1', 'sec_2', 'sec_3', 'sec_4', 'sec_5', 'sec_6', 'sec_7']
+				});
 			});
 		</script>
 	</head>
 	<title>SPROUT, A 3D Printer</title>
 	<body>
 		<div id="fullpage">
-			<div class="section" id="1" style="background: url(SPR_1.png) no-repeat center top; background-size: cover;"></div>
-			<div class="section" id="2" style="background: url(SPR_2.png) no-repeat center top; background-size: cover;"></div>
-			<div class="section" id="3" style="background: url(SPR_3.png) no-repeat center top; background-size: cover;"></div>
-			<div class="section" id="4" style="background: url(SPR_4.png) no-repeat center top; background-size: cover;"></div>
-			<div class="section" id="5" style="background: url(SPR_5.png) no-repeat center top; background-size: cover;"></div>
-			<div class="section" id="6" style="background: url(SPR_6.png) no-repeat center top; background-size: cover;"></div>
+			<div class="section fp-auto-height" id="sec_1">
+				<img src="SPR_1.png">
+			</div>
+			<div class="section fp-auto-height" id="sec_2"><img src="SPR_2.png"></div>
+			<div class="section fp-auto-height" id="sec_3"><img src="SPR_3.png"></div>
+			<div class="section fp-auto-height" id="sec_4"><img src="SPR_4.png"></div>
+			<div class="section fp-auto-height" id="sec_5"><img src="SPR_5.png"></div>
+			<div class="section fp-auto-height" id="sec_6"><img src="SPR_6.png"></div>
+			<div class="section fp-auto-height" id="sec_7">
+				<div id="wrap">
+					<p id="text_1">Learn more<p>
+					<div id="text_area">
+					<a id="github" href="https://github.com/cheon7886/SPROUT"><p>See in Github </p></a>
+					<a id="zip" href="https://github.com/cheon7886/SPROUT/raw/master/CAD%20File.zip">
+					<p>Download as a ZIP</p>
+					</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
