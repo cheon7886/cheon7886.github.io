@@ -7,7 +7,7 @@
 		<script type="application/javascript">
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					anchors:['firstPage','secondPage','thiredPage','fourthPage','fifthPage']
+					anchors:['slide1','slide2','slide3','slide4','slide5']
 				});
 			});
 		</script>
@@ -19,7 +19,7 @@
 	<title>MWGA: Make Webshare Great Again</title>
 	<body>
 		<div id="fullpage">
-			<div class="section" id="firstPage">
+			<div class="section" id="firstPage" data-anchor="slide1">
 				<img src="sec_1.png">
 				<div id="container_1">
 					<h1>MWGA:</h1>
@@ -27,7 +27,7 @@
 				</div>
 				
 			</div>
-			<div class="section" id="secondPage">
+			<div class="section" id="secondPage" data-anchor="slide2">
 				<div id="container_2">
 					<img src="sec_2.png">
 						<div id="text_21">
@@ -43,7 +43,7 @@
 				</div>
 				
 			</div>
-			<div class="section" id="thirdPage">
+			<div class="section" id="thirdPage" data-anchor="slide3">
 				<h1>APP-LIKE ENVIRONMENT.</h1>
 					<div id="container_3">
 						<div id="text_3">
@@ -61,7 +61,7 @@
 					
 			
 			</div>
-			<div class="section" id="fourthPage">
+			<div class="section" id="fourthPage" data-anchor="slide4">
 				
 				<div id="container_4">
 					<img src="sec_4.png">
@@ -78,7 +78,7 @@
 				</div>
 				
 			</div>
-			<div class="section" id="fifthPage">
+			<div class="section" id="fifthPage" data-anchor="slide5">
 				
 				<p>OTHER FEATURES</p>
 				<div id ="features">
