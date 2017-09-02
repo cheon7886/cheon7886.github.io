@@ -44,10 +44,15 @@ body img {width: 100%; height: auto}
 #sec_3 img {width: 600px; display:block; margin-left: 40px; position: absolute; right:40px; bottom: 40px;}
 
 #sec_4 {text-align: center;}
-#sec_4 h1 {font-size: 40px; margin-bottom: 50px; font-weight: 100;}
-#sec_4 img {width: 600px; height: auto;}
-#sec_4 h2 {font-size: 22px; margin-top: 40px;}
-#sec_4 p {font-size: 16px; margin-top: 20px; opacity: 0.8;}
+
+#container_4 {display: block; position: relative; margin: 0 auto; width: 1300px; height: 318.63px;}
+#container_4 img {width: 600px; height: auto; position: absolute; left: 0;}
+#text_4 {display: block; position: absolute; right: 0px; top: 0px;}
+#container_4 h1 {font-size: 50px; font-weight: 100; text-align: left;}
+
+#container_4 h2 {font-size: 30px; text-align: left; font-weight: 100;}
+#container_4 p {font-size: 16px; opacity: 0.6; text-align: left; font-weight: 100; margin-top: 15px;}
+
 
 #sec_5 {text-align: center;}
 #sec_5 p {font-size: 40px; margin-top: 40px; margin-bottom: 100px; font-weight: 100;}
