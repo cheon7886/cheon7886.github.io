@@ -18,7 +18,7 @@ body p, h1, h2{font-family: 'Noto Sans KR', sans-serif;}
 
 body img {width: 100%; height: auto}
 
-#sec_1 img {width: 500px; position: absolute; right: 100px; bottom: 0px;}
+#firstPage img {width: 500px; position: absolute; right: 100px; bottom: 0px;}
 #container_1 {position: absolute; display: block; top: 100px; left: 100px;}
 #container_1 h1 {font-size: 100px; font-weight: 900;}
 #container_1 p {font-size: 30px; font-weight: 100;}
@@ -34,16 +34,16 @@ body img {width: 100%; height: auto}
 #text_22 p {font-size: 24px; font-weight: 100; margin-top: 10px;}
 
 
-#sec_3 {text-align: center; vertical-align: top;}
-#sec_3 h1 {font-size: 40px; font-weight: 100; position: relative; margin-bottom: 40px;}
+#thirdPage {text-align: center; vertical-align: top;}
+#thirdPage h1 {font-size: 40px; font-weight: 100; position: relative; margin-bottom: 40px;}
 #container_3 {display: block; position: relative; margin: 0 auto; width: 1350px; height: 680px;}
 #text_3 {display: block; text-align: left; position: absolute; left: 60px; bottom: 120px;}
 #text_3 h2 {font-size: 40px; font-weight: 700; margin-bottom: 20px;}
 #text_3 p { font-size: 22px; font-weight: 100;}
 
-#sec_3 img {width: 600px; display:block; margin-left: 40px; position: absolute; right:40px; bottom: 40px;}
+#thirdPage img {width: 600px; display:block; margin-left: 40px; position: absolute; right:40px; bottom: 40px;}
 
-#sec_4 {text-align: center;}
+#fourthPage {text-align: center;}
 
 #container_4 {display: block; position: relative; margin: 0 auto; width: 1300px; height: 318.63px;}
 #container_4 img {width: 600px; height: auto; position: absolute; left: 0;}
@@ -54,8 +54,8 @@ body img {width: 100%; height: auto}
 #container_4 p {font-size: 16px; opacity: 0.6; text-align: left; font-weight: 100; margin-top: 15px;}
 
 
-#sec_5 {text-align: center;}
-#sec_5 p {font-size: 40px; margin-top: 40px; margin-bottom: 100px; font-weight: 100;}
+#fifthPage {text-align: center;}
+#fifthPage p {font-size: 40px; margin-top: 40px; margin-bottom: 100px; font-weight: 100;}
 
 #features {width: 90%; display: block; position: relative; margin: 0 auto;}
 #f_1 {display: inline-block; position: relative; width: 30%; margin-right: 10px;}
