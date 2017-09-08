@@ -69,4 +69,4 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 }
 #thirdPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; margin-top: 40px; display: block; width: 1260px;}
 #wrap_4{display: block; position: relative; width: 1260px; margin: 0 auto;}
-.iframe{display: inline-block; margin: 10 10 10 10; width: 600px;}
+.iframe{display: inline-block; margin: 10 10 10 10; width: 600px; vertical-align: top;}
