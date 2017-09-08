@@ -65,8 +65,8 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 	font-size: 20px; font-weight: 500; color: #19B5FE; margin: 0 auto;
 }
 #thirdPage {
-	background-color: #19B5FE;
+	background-color: #990029;
 }
-#thirdPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; margin-top: 40px; display: block; width: 1260px;}
-#wrap_4{display: block; position: relative; width: 1260px; margin: 0 auto; background-color: #2C3E50; border: 10px solid #2C3E50; border-radius: 10px;}
+#thirdPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; margin-top: 40px; display: block; width: 1246px;}
+#wrap_4{display: block; position: relative; width: 1246px; margin: 0 auto; background-color: #ECF8FF; border: 30px solid #ECF8FF; border-radius: 10px;}
 .iframe{display: inline-block; margin: 10 10 10 10; width: 600px; vertical-align: top;}
