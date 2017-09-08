@@ -64,3 +64,8 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 .lmblock p{
 	font-size: 20px; font-weight: 500; color: #19B5FE; margin: 0 auto;
 }
+#thirdPage {
+	background-color: #2F343B;
+}
+#wrap_4{display: block; position: relative; width: 1240px; margin: 0 auto;}
+.iframe{display: inline-block}
