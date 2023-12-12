@@ -8,9 +8,13 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 }*/
 
 
-#secondPage{
+#firstPage{
 	background: #22313F;
-}
+	height: 100%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; 
+	}
 #profile{
 	position: absolute; height: 100%; left: 50%; top: 0px; transform: translateX(-50%);
 }
@@ -30,7 +34,7 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 }
 
 /*page2*/
-#secondPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; display: block; width: 1377px;}
+#firstPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; display: block; width: 1377px;}
 
 #wrap{position: relative; margin: 0 auto; display: block; height: 570px; width: 1377px; margin-bottom: 50px; vertical-align: middle;}
 /*
@@ -64,9 +68,9 @@ body p, h1, h2, h3 {font-family: "Noto Sans KR", sans-serif;}
 .lmblock p{
 	font-size: 20px; font-weight: 500; color: #19B5FE; margin: 0 auto;
 }
-#thirdPage {
+#secondPage {
 	background-color: #990029;
 }
-#thirdPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; margin-top: 40px; display: block; width: 1306px;}
+#secondPage h1 {font-size: 80px; font-weight: 100; color: white; position: relative; margin: 0 auto; margin-bottom: 40px; margin-top: 40px; display: block; width: 1306px;}
 #wrap_4{display: block; position: relative; width: 1246px; margin: 0 auto; background-color: #ECF8FF; border: 30px solid #ECF8FF; border-radius: 10px;}
 .iframe{display: inline-block; margin: 10 10 10 10; width: 600px; vertical-align: top;}
